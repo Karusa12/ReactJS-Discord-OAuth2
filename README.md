@@ -72,7 +72,7 @@ const  app  =  express();
 const  PORT  =  3600;
 
 app.use(cors({
-origin:  'http://localhost:3500', // Autoriser les requêtes depuis cette origine
+origin:  'http://localhost:3500',
 methods: ['GET', 'POST'],
 allowedHeaders: ['Content-Type', 'Authorization'],
 exposedHeaders: ['Access-Control-Allow-Origin'],
