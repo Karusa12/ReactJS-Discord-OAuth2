@@ -1,0 +1,20 @@
+/* Styles pour le NavBarHome */
+.NavBarHome {
+    background-color: #333; /* Couleur de fond grise */
+    padding: 10px;
+    display: flex; 
+    justify-content: space-between; /* Aligner les éléments en espacement égal */
+    align-items: center; /* Centrer les éléments verticalement */
+  }
+  
+  .NavBarHome__logo {
+    font-size: 24px;
+    font-weight: bold;
+    /* faire en sorte qu'on ne puissent pas copier coller le logo */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+  }
+  

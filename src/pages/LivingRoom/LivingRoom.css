@@ -1,0 +1,122 @@
+.Chargement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 20%;
+}
+
+
+.CardUserLiving {
+    max-width: 400px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto;
+}
+
+.CardUserLiving:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.DiscordRoleList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.DiscordRole {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #1f1f1f;
+}
+
+.RoleCircle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.RoleName {
+    font-weight: bold;
+}
+
+.UserAvatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.phone {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .CardUserLiving {
+        max-width: 80%;
+    }
+
+    .DiscordRole {
+        display: flex;
+        align-items: center;
+        margin-right: 8px; 
+        margin-bottom: 8px; 
+        font-size: 12px; 
+        color: #1f1f1f;
+        white-space: nowrap;
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+    }
+    .DiscordRole:hover {
+        transform: scale(1.05); 
+        overflow: visible; 
+        white-space: normal; 
+        background-color: #f0f0f0; 
+        border-radius: 8px;
+        padding: 4px;
+    }
+    
+    .RoleCircle {
+        transform: scale(1.05);
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        margin-right: 4px;
+    }
+
+    .RoleCircle:hover {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+    
+    
+    .Chargement {
+        margin-top: 20%;
+        white-space: pre-line; 
+        text-align: center; 
+        font-size: 1.5rem;; 
+        padding: 0 10%; 
+    }
+    .ChargementP {
+        padding: 0% 10%;
+    }
+    .phone {
+        display: block;
+    }
+}

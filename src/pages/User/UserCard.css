@@ -1,0 +1,91 @@
+.UserCard {
+    max-width: 400px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto;
+
+  }
+
+
+.UserCard {
+    max-width: 400px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto;
+  }
+
+  .UserCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(32, 32, 32, 0.2);
+  }
+
+  
+  .UserCard__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .UserCard__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .UserCard__username {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .UserCard__section {
+    margin-bottom: 16px;
+  }
+  
+  .UserCard__section__title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .UserCard__section__content__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  
+  .UserCard__section__content__item__label {
+    flex: 0.4;
+  }
+  
+  .UserCard__section__content__item__value {
+    flex: 0.6;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Optional: Add responsive styles for smaller screens */
+  @media (max-width: 600px) {
+    .UserCard {
+      max-width: 80%;
+    }
+  }
+  

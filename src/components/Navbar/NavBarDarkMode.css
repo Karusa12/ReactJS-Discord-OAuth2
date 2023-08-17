@@ -1,0 +1,100 @@
+body.dark-mode {
+    background-color: #333;
+    color: #ffffff;
+    transition: background-color 0.3s linear, color 0.3s ease-in-out;
+}
+
+
+
+.dark-mode .UserCard {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark-mode .UserCard:hover {
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+  }
+  
+  .dark-mode .UserCard__username {
+    color: #ffffff;
+  }
+  
+  .dark-mode .UserCard__section__title {
+    color: #ffffff;
+  }
+  
+  .dark-mode .UserCard__section__content__item__label,
+  .dark-mode .UserCard__section__content__item__value {
+    color: #ffffff;
+  }
+  
+  .dark-mode .ServerCard {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark-mode .ServerCard:hover {
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+  }
+  
+  .dark-mode .ServerCard_name {
+    color: #ffffff;
+  }
+  
+  .dark-mode .ServerCard__section__title {
+    color: #ffffff;
+  }
+  
+  .dark-mode .ServerCard__section__content__item__label,
+  .dark-mode .ServerCard__section__content__item__value {
+    color: #ffffff;
+  }
+  
+  .dark-mode .ServerCard__select {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+
+  .dark-mode .rules {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  } 
+
+  .dark-mode .RuleText {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+
+  .dark-mode .RulesVoc {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+
+  .dark-mode .RulesC {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+
+  .dark-mode .CardUserLiving {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+
+  .dark-mode .RoleName {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+
+  .dark-mode .DiscordRole {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #333;
+    transition: background-color 3s linear, color 0.1s ease-in-out;
+}
+

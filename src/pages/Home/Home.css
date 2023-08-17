@@ -1,0 +1,16 @@
+div .Home__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .Home__content {
+        white-space: pre-line;
+        text-align: center;
+        
+        
+    }
+}

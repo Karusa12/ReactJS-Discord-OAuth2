@@ -1,0 +1,33 @@
+/* Styles pour le Footer */
+.footer {
+    background-color: #181818;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  
+    /* Positionner le Footer en bas de la page */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    /* faire en sorte de dessendre tout en bas pour afficher le footer */
+    margin-top: 100px;
+
+    /* ne pas l'afficher avant d'être tout en bas de la page puis après l'afficher*/
+  
+  
+  
+    /* Responsive */
+    @media screen and (max-width: 768px) {
+      font-size: 14px; /* Réduire la taille de la police pour les petits écrans */
+      /* caché le footer sur téléphone mis a part si on scroll tout en bas */
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      margin-top: 100px;
+
+    }
+  }
+  
