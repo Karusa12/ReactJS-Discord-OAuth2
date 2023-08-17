@@ -28,7 +28,7 @@ npm start
 Pour configurer les ports, allez dans `package.json` et modifiez...
 ````json
 "scripts": {
-//modifiez le port juste en dessous PORT=3500
+//modifier le port juste en dessous PORT=3500
 "start": "PORT=3500 react-scripts start",
 "build": "react-scripts build",
 "test": "react-scripts test",
