@@ -98,7 +98,7 @@ console.log(`Serveur en cours d'exécution sur le port ${PORT}`);
 ```
 
 *_Pour obtenir l'intégralité du backend, vous pouvez souscrire à mon Patreon afin de soutenir mon travail !_*
-*_Vous trouverez toutes les informations sur le Patreon [https://www.patreon.com/LivingRoomFR]() !_*
+*_Vous trouverez toutes les informations sur le Patreon [ici](https://www.patreon.com/LivingRoomFR) !_*
 
 
 
