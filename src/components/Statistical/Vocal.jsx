@@ -28,7 +28,7 @@ const VocalStats = () => {
 
             try {
 
-                const response = await axios.post("http://localhost:3600/stats/vocal");
+                const response = await axios.post("https://backend.karusa.fr/stats/vocal");
 
                 const StatsSemaine = response.data.filter((stat) => stat.DébutSemaine === PerSemaine && stat.FinSemaine === DerSemaine);
                 const StatsSemaineAvant = response.data.filter((stat) => stat.DébutSemaine === PerSemaineDernière && stat.FinSemaine === DerSemaineDernière);

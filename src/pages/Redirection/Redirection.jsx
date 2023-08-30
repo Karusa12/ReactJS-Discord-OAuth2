@@ -12,7 +12,7 @@ const Redirection = () => {
 
     const exchangeCodeForToken = async () => {
       try {
-        const response = await axios.post('http://localhost:3600/redirection', { code });
+        const response = await axios.post('https://backend.karusa.fr/redirection', { code });
         const accessToken = response.data.access_token;
         localStorage.setItem('accessToken', accessToken);
         

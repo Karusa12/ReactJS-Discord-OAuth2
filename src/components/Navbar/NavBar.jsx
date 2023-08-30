@@ -33,7 +33,7 @@ const NavBar = () => {
         {/* Dans notre cas, vous devez mettre une url de redirection (http://localhost:{portdevotreprojetreact}/callback) */}
         {/* URL Générator vous mettez identify guilds email guilds.join guilds.members.read */}
         {/* <a className="NavBarHome__button" href="https://discord.com/api/oauth2/authorize?client_id={CLIENTID}&redirect_uri=http%3A%2F%2Flocalhost%3A{PORTPROJETREACT}%2Fcallback&response_type=code&scope=identify%20guilds%20email%20guilds.join%20guilds.members.read">Connexion Discord</a> */}
-        <a className="NavBarHome__button" href='https://discord.com/api/oauth2/authorize?client_id=777992628045611072&redirect_uri=http%3A%2F%2Flocalhost%3A3500%2Fcallback&response_type=code&scope=identify%20guilds%20guilds.join%20email%20guilds.members.read'>Connexion a Discord</a>
+        <a className="NavBarHome__button" href='https://discord.com/api/oauth2/authorize?client_id=777992628045611072&redirect_uri=https%3A%2F%2Fpanel.karusa.fr%2Fcallback&response_type=code&scope=identify%20guilds%20guilds.join%20email%20guilds.members.read'>Connexion a Discord</a>
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ const Rules = () => {
     const handleLink = () => {
         localStorage.removeItem("accessToken");
         // window.location.href = "https://discord.com/api/oauth2/authorize?client_id=777992628045611072&redirect_uri=http%3A%2F%2Flocalhost%3A3600%2Fredirection&response_type=code&scope=identify%20guilds%20email%20guilds.members.read%20guilds.join";
-        window.location.href = "https://discord.com/api/oauth2/authorize?client_id=777992628045611072&redirect_uri=http%3A%2F%2Flocalhost%3A3500%2Fredirection&response_type=code&scope=identify%20guilds%20guilds.join%20email%20guilds.members.read";
+        window.location.href = "https://discord.com/api/oauth2/authorize?client_id=777992628045611072&redirect_uri=https%3A%2F%2Fpanel.karusa.fr%2Fredirection&response_type=code&scope=identify%20guilds%20guilds.join%20email%20guilds.members.read";
     };
 
 

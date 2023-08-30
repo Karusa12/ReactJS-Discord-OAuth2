@@ -9,6 +9,7 @@ import Stats from './pages/Stats/Stats';
 import Rules from './pages/Rules/Rules';
 import Redirection from './pages/Redirection/Redirection';
 import LivingRoom from './pages/LivingRoom/LivingRoom';
+import Leaderboard from './pages/Leaderboard/Leaderboard';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/stats" element={<Stats />} />
         <Route exact path="/rules" element={<Rules />} />
         <Route exact path="/LivingRoom" element={<LivingRoom />} />
+        <Route exact path="/Leaderboard" element={<Leaderboard />} />
       </Routes>
     </Router>
   );

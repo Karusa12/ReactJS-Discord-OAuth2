@@ -94,7 +94,7 @@ const LivingRoom = () => {
 
         const fetchServerRoles = async () => {
             try {
-                const response = await axios.get(`http://localhost:3600/livingroom/roles`)
+                const response = await axios.get(`https://backend.karusa.fr/livingroom/roles`)
 
                 localStorage.setItem('serverRoles', JSON.stringify(response.data));
 

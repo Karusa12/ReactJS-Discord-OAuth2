@@ -50,7 +50,7 @@ const MessageStaffStats = () => {
 
             try {
 
-                const response = await axios.post("http://localhost:3600/stats/vocalstaff");
+                const response = await axios.post("https://backend.karusa.fr/stats/vocalstaff");
 
                 const StatsSemaine = response.data.filter((stat) => stat.DébutSemaine === PerSemaine && stat.FinSemaine === DerSemaine);
                 const StatsSemaineAvant = response.data.filter((stat) => stat.DébutSemaine === PerSemaineDernière && stat.FinSemaine === DerSemaineDernière);

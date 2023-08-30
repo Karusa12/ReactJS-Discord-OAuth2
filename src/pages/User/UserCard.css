@@ -25,6 +25,10 @@
     box-shadow: 0 6px 12px rgba(32, 32, 32, 0.2);
   }
 
+  .Loading h1 {
+    text-align: center;
+    animation: loading 1s infinite;
+  } 
   
   .UserCard__header {
     display: flex;

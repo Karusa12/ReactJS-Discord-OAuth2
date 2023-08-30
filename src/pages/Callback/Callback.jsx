@@ -12,7 +12,7 @@ const Callback = () => {
 
     const exchangeCodeForToken = async () => {
       try {
-        const response = await axios.post('http://localhost:3600/callback', { code });
+        const response = await axios.post('https://backend.karusa.fr/callback', { code });
         // Adresse de votre serveur Backend
         console.log('Réponse de l\'API Discord:', response.data);
         const accessToken = response.data.access_token;
